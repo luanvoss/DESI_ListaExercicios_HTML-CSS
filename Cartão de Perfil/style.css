@@ -1,4 +1,39 @@
-.Base{
-  border-radius: 12px;
-  border: 1px solid #1562fd;
+
+/* Configurações gerais */
+body {
+    background-color: #173a0a;
+    font-family: Arial, sans-serif;
 }
+
+/* Cartão */
+.section {
+    background-color: rgb(255, 255, 255);
+    border: 1px double #1c19f8;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 500px;
+}
+
+#baleião {
+    text-align: center;
+}
+
+/* Perfil circular */
+#baleião img {
+    width: 200px;
+    height: 200px;
+    border-radius: 60%;
+    object-fit: cover;
+}
+
+/* Link */
+#link a {
+    color: rgb(0, 0, 0);
+}
+
+/* Cor do link quando passar o mouse */
+#link a:hover {
+    color: red;
+}
+
