@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 40px;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Coloca os 3 cartões lado a lado */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+/* Título ocupa toda a largura */
+main h1 {
+    width: 100%;
+}
+
+/* Cartões */
+.section {
+    width: 30%;
+    min-width: 250px;
+}
+
+.section div {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Título dos planos */
+.section h2 {
+    margin-top: 0;
+}
+
+/* Lista */
+.section ul {
+    text-align: left;
+    padding-left: 25px;
+    line-height: 1.8;
+}
+
+/* Plano recomendado em destaque */
+#plano2 {
+    border: 3px solid #007bff;
+    transform: translateY(-15px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Botões */
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 12px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Efeito quando passa o mouse */
+button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+#plano1 {
+    background-color: #e8d5f5;
+    
+}
+
+#plano2 {
+    background-color: #f5d5d5;
+    border: 3px solid #e74c3c;
+    transform: translateY(-15px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+#plano3 {
+    background-color: #d5f5df;
+    
+}

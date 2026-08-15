@@ -5,46 +5,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <main>
         <section class="section">
             <div id="Titulo">
-                <h1>🌽🌽Palestra do milhão🌽🌽</h1>
+                <h1>🌽🌽Cadastro para a Palestra do milhão🌽🌽</h1>
             </div>
         </section>
         <section class="section">
             <div id="Formulario">
                 <form>
-                    <label for="Nome">Nome:</label>
-                    <br>
-                    <input id="Nome" type="text" placeholder="Escreva seu nome completo" required>
-                    <br>
-                    <label for="E-mail">E-mail: </label>
-                    <br>
-                    <input id="E-mail" type="email">
-                    <br>
-                    <label for="DataNascimento"> Data de Nascimento: </label>
-                    <br>
-                    <input id="DataNascimento" type="date">
-                    <br>
-                    <label for="Ingresso">Ingresso: </label>
-                    <br>
-                    <select id="Ingresso">
-                        <option value="Meia">Meia</option>
-                        <option value="Interira">Interira</option>
-                        <option value="Vip">Vip</option>
-                        <br>
-                    </select>
-                    <br>
+                    <div>
+                        <label for="Nome">Nome:</label>
+                        <input id="Nome" type="text" placeholder="Escreva seu nome completo" required>
+                    </div>
+                    <div>
+                        <label for="E-mail">E-mail: </label>
+                        <input id="E-mail" type="email">
+                    </div>
+                    <div>
+                        <label for="DataNascimento"> Data de Nascimento: </label>
+                        <input id="DataNascimento" type="date">
+                    </div>
+                    <div>
+                        <label for="Ingresso">Ingresso: </label>
+                        <select id="Ingresso">
+                            <option value="Meia">Meia</option>
+                            <option value="Interira">Interira</option>
+                            <option value="Vip">Vip</option>
+                        </select>
+                    </div>
+                    <div></div>
                     <label for="Observação">Observação: </label>
-                    <br>
                     <textarea id="Observação"></textarea>
-                    <br>
                     <button id="reset" type="reset">Limpar</button>
                     <button id="submit" type="submit">Enviar</button>
-                </form>
+            </div>
+            </form>
             </div>
         </section>
     </main>

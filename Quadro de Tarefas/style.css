@@ -1,0 +1,61 @@
+body {
+    font-family: Arial;
+    background-color: #f2f2f2;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* 3 colunas usando GRID */
+.kanban {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+/* Colunas usando FLEXBOX */
+.coluna {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+}
+
+/* Cores das colunas */
+.fazer {
+    background-color: #eeeeff;
+}
+
+.fazendo {
+    background-color: #fff5cc;
+}
+
+.concluido {
+    background-color: #ddffdd;
+}
+
+/* Cartões */
+.tarefa {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+/* Etiquetas */
+.alta {
+    background-color: red;
+    color: white;
+    padding: 5px;
+}
+
+.media {
+    background-color: yellow;
+    padding: 5px;
+}
+
+.baixa {
+    background-color: green;
+    color: white;
+    padding: 5px;
+}

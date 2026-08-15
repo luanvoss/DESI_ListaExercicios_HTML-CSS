@@ -1,0 +1,102 @@
+/* Configuração geral da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fffde7;
+    margin: 0;
+    padding: 30px;
+}
+
+/* Título */
+#Titulo {
+    text-align: center;
+    color: #2e7d32;
+}
+
+#Titulo h1 {
+    color: #f9a825;
+}
+
+/* Cartão do formulário */
+#Formulario {
+    background-color: #fff9c4;
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 30px;
+    border: 2px solid #66bb6a;
+    border-radius: 12px;
+}
+
+/* Espaçamento uniforme entre os campos */
+#Formulario form > div {
+    margin-bottom: 20px;
+}
+
+/* Labels */
+label {
+    display: block;
+    margin-bottom: 6px;
+    color: #2e7d32;
+    font-weight: bold;
+}
+
+/* Campos */
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 2px solid #9ccc65;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #333;
+    background-color: #fffef5;
+}
+
+/* Placeholder */
+input::placeholder,
+textarea::placeholder {
+    color: #9b552def;
+    font-style: italic;
+}
+
+/* Quando clicar no campo */
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    border-color: #f9a825;
+}
+
+/* Área de observação */
+textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+/* Botões */
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+/* Botão limpar */
+#reset {
+    background-color: #fdd835;
+    color: #5d4037;
+}
+
+/* Botão enviar */
+#submit {
+    background-color: #43a047;
+    color: white;
+}
+
+/* Efeito ao passar o mouse */
+button:hover {
+    opacity: 0.8;
+}
