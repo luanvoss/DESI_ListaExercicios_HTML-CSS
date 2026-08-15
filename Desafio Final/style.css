@@ -81,7 +81,6 @@ button:hover {
     max-width: 1200px;
     margin: 40px auto;
 }
-
 .card1,
 .card2,
 .card3,
@@ -92,15 +91,12 @@ button:hover {
     text-align: center;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
 }
-
 .card1 h2,
 .card2 h2,
 .card3 h2,
 .card4 h2 {
     color: #0077b6;
 }
-
-/* DEPOIMENTOS - FLEXBOX */
 .section:nth-child(3) {
     display: flex;
     justify-content: center;
@@ -108,13 +104,11 @@ button:hover {
     flex-wrap: wrap;
     padding: 40px;
 }
-
 .section:nth-child(3) > h2 {
     width: 100%;
     text-align: center;
     color: #0077b6;
 }
-
 .depoimento1,
 .depoimento2,
 .depoimento3 {
@@ -125,25 +119,20 @@ button:hover {
     text-align: center;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
 }
-
-/* FORMULÁRIO */
 .section:nth-child(4) {
     max-width: 600px;
     margin: 40px auto;
     padding: 30px;
 }
-
 .section:nth-child(4) h2 {
     text-align: center;
     color: #0077b6;
 }
-
 form {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
-
 input,
 textarea {
     padding: 12px;
@@ -155,8 +144,6 @@ textarea {
 textarea {
     height: 120px;
 }
-
-/* FOOTER - FLEXBOX */
 footer {
     background-color: #0077b6;
     color: white;
@@ -165,7 +152,6 @@ footer {
     justify-content: space-between;
     align-items: center;
 }
-
 footer ul {
     display: flex;
     gap: 20px;
@@ -173,43 +159,30 @@ footer ul {
     margin: 0;
     padding: 0;
 }
-
 footer a {
     color: white;
     text-decoration: none;
 }
-
 footer a:hover {
     color: #90e0ef;
 }
-
-/* RESPONSIVIDADE */
 @media (max-width: 800px) {
-
-    /* Benefícios passam de 4 para 2 colunas */
     .section:nth-child(2) {
         grid-template-columns: repeat(2, 1fr);
         padding: 20px;
     }
-
-    /* Hero fica em coluna */
     #Hero {
         flex-direction: column;
         padding: 30px;
     }
-
     #Hero img {
         width: 100%;
     }
-
-    /* Depoimentos */
     .depoimento1,
     .depoimento2,
     .depoimento3 {
         width: 100%;
     }
-
-    /* Footer */
     footer {
         flex-direction: column;
         gap: 15px;
