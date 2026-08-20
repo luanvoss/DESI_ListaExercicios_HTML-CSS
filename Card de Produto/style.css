@@ -17,13 +17,11 @@ body{
     height: auto;
 }
 
-/* Botões lado a lado */
 #Botão {
     display: flex;
     gap: 10px;
 }
 
-/* Estilo dos botões */
 #Botão button {
     padding: 10px 20px;
     border: none;
@@ -32,19 +30,16 @@ body{
     transition: 0.3s;
 }
 
-/* Comprar agora */
 #Botão button:first-child {
     background-color: red;
     color: white;
 }
 
-/* Adicionar ao carrinho */
 .btn-carrinho {
     background-color: gold;
     color: black;
 }
 
-/* Efeito ao passar o mouse */
 #Botão button:hover {
     transform: scale(1.05);
 }

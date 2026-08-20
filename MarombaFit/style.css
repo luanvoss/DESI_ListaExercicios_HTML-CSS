@@ -15,7 +15,6 @@ h1 {
     margin-bottom: 40px;
 }
 
-/* Coloca os 3 cartões lado a lado */
 main {
     display: flex;
     flex-wrap: wrap;
@@ -23,12 +22,10 @@ main {
     gap: 30px;
 }
 
-/* Título ocupa toda a largura */
 main h1 {
     width: 100%;
 }
 
-/* Cartões */
 .section {
     width: 30%;
     min-width: 250px;
@@ -43,26 +40,22 @@ main h1 {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Título dos planos */
 .section h2 {
     margin-top: 0;
 }
 
-/* Lista */
 .section ul {
     text-align: left;
     padding-left: 25px;
     line-height: 1.8;
 }
 
-/* Plano recomendado em destaque */
 #plano2 {
     border: 3px solid #007bff;
     transform: translateY(-15px);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
 
-/* Botões */
 button {
     background-color: #007bff;
     color: white;
@@ -74,7 +67,7 @@ button {
     transition: 0.3s;
 }
 
-/* Efeito quando passa o mouse */
+
 button:hover {
     background-color: #0056b3;
     transform: scale(1.05);

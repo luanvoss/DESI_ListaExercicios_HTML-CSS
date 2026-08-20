@@ -1,5 +1,4 @@
 
-/* Configurações gerais da página */
 body {
     font-family: Arial, sans-serif;
     background-color: #cf82ac;
@@ -8,7 +7,6 @@ body {
     color: #333;
 }
 
-/* Título da receita */
 #Receita {
     background-color: #ffffff;
     text-align: center;
@@ -17,7 +15,6 @@ body {
     border: 1px solid #ddd;
 }
 
-/* Imagem */
 #Imagem {
     background-color: #ffffff;
     text-align: center;
@@ -34,7 +31,6 @@ body {
     border-radius: 50%;
 }
 
-/* Bloco de ingredientes principais */
 #Lista {
     background-color: #fff3e0;
     padding: 20px;
@@ -43,7 +39,6 @@ body {
     border: 1px solid #e0c9a6;
 }
 
-/* Bloco do molho */
 #Molho {
     background-color: #ffe8e8;
     padding: 20px;
@@ -52,7 +47,6 @@ body {
     border: 1px solid #e0b5b5;
 }
 
-/* Bloco do modo de preparo */
 #Preparo {
     background-color: #e8f5e9;
     padding: 20px;
@@ -61,18 +55,15 @@ body {
     border: 1px solid #b7d8ba;
 }
 
-/* Espaçamento das listas */
 ul,
 ol {
     line-height: 1.8;
 }
 
-/* Destaque dos títulos */
 h3 {
     margin-top: 0;
 }
 
-/* Rodapé */
 footer {
     background-color: #ffffff;
     padding: 20px;

@@ -1,11 +1,11 @@
 
-/* Configurações gerais */
+
 body {
     background-color: #173a0a;
     font-family: Arial, sans-serif;
 }
 
-/* Cartão */
+
 .section {
     background-color: rgb(255, 255, 255);
     border: 1px double #1c19f8;
@@ -19,7 +19,6 @@ body {
     text-align: center;
 }
 
-/* Perfil circular */
 #baleião img {
     width: 200px;
     height: 200px;
@@ -27,12 +26,10 @@ body {
     object-fit: cover;
 }
 
-/* Link */
 #link a {
     color: rgb(0, 0, 0);
 }
 
-/* Cor do link quando passar o mouse */
 #link a:hover {
     color: red;
 }
